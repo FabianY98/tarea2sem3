@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p class="Pregunta"> 1.Concepto de CSS</p>
+    <p class="concepto">
+        Definición:
+El CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para describir el aspecto y formato de un documento HTML u otro tipo de documento estructurado. 
+CSS se utiliza para definir el diseño, el color, la tipografía y otros aspectos visuales de un documento web, permitiendo separar el contenido y la presentación.
+    </p>
+    <p class="Pregunta">2.Explicar una regla CSS detallado</p>
+
+    <p>El detalle de una regla CSS a continuacion:</p>
+    <img src="./css detallado.png" alt="CSS detallado">
+    
+    <p class="Pregunta">3.Explicar con ejemplos los 4 conceptos de CSS</p>
+
+<div>
+    <h1 class="ej1">Ejemplo de Especificidad</h1>
+        <p class="Ejemplo1">
+            En este caso, si tenemos un elemento con la etiqueta "p" con la clase "mi-clase" y el identificador "mi-elemento", el color del texto será verde. Aunque la regla p tiene un selector de etiqueta y se aplicaría a todos los párrafos, la regla con el identificador tiene mayor especificidad y anula las otras.
+        </p>
+        <img src="./ejemplo1.png" alt="ej1">    
+    <h2 class="ej">Ejemplo de Selectores </h2>
+        <p class="Ejemplo2">
+            En este caso, el selector p selecciona todos los párrafos, .clase-p selecciona elementos con la clase "clase-p" y #mi-elemento selecciona el elemento con el identificador "mi-elemento". Además, p.clase-p selecciona los párrafos que también tienen la clase "clase-p". Estos selectores te permiten aplicar estilos específicos a diferentes elementos en función de sus características.
+        </p>
+        <img src="./ejemplo2.png" alt="ej2">
+
+     <h3 class="ej">Ejemplo de Cascada </h3>
+        <p class="Ejemplo3">
+            En este caso, la segunda regla se aplicará y el color del texto será rojo. La cascada permite que las reglas se apliquen en un orden específico, por lo que la última regla que coincide con un elemento tendrá prioridad.
+        </p>
+        <img src="./ejemplo3.png" alt="ej3">
+
+
+    <h4 class="ej">Ejemplo de Herencia </h4>
+        <p class="Ejemplo3">
+            En este caso, el elemento con la clase "parent" tiene la fuente Arial o una fuente sans-serif aplicada, y los elementos secundarios con la clase "child" heredarán esa propiedad de fuente. No es necesario aplicar explícitamente la propiedad font-family a los elementos secundarios.
+        </p>
+        <img src="./ejemplo4.png" alt="ej3">
+
+
+        
+</div>
+
+</body>
+</html>
